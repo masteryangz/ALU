@@ -1,0 +1,166 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/y1499/OneDrive/Desktop/9 bit CPU/simulation
+valu
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1735800049
+!i10b 1
+!s100 `A=_K2m8h=a8n9G<]0HF<1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUzR1iBn`b7fYJzk@TA]U70
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/y1499/OneDrive/Desktop/ALU/simulation
+w1735621590
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv
+!i122 73
+L0 1 48
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1735800049.000000
+!s107 C:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+Xdriver_sv_unit
+Z7 !s115 intf
+R0
+Z8 !s110 1735799674
+VV]Y]g`3OP<B7Wa?Zb8]Nc0
+r1
+!s85 0
+!i10b 1
+!s100 j01nHVk0_264F>9TIH=IZ1
+IV]Y]g`3OP<B7Wa?Zb8]Nc0
+!i103 1
+S1
+R3
+w1735799403
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv
+Z9 FC:\Users\y1499\OneDrive\Desktop\ALU\code\transaction.sv
+!i122 63
+Z10 L0 1 0
+R4
+31
+Z11 !s108 1735799674.000000
+!s107 C:\Users\y1499\OneDrive\Desktop\ALU\code\transaction.sv|C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv|
+!i113 1
+R5
+R6
+Xgenerator_sv_unit
+R0
+R8
+V8eI]hAe02:G>@fh8F8QbH3
+r1
+!s85 0
+!i10b 1
+!s100 :QFWKgA2:9cUWEG`oQ:zI1
+I8eI]hAe02:G>@fh8F8QbH3
+!i103 1
+S1
+R3
+w1735799668
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv
+R9
+!i122 64
+R10
+R4
+31
+R11
+!s107 C:\Users\y1499\OneDrive\Desktop\ALU\code\transaction.sv|C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv|
+!i113 1
+R5
+R6
+Yintf
+R0
+Z12 !s110 1735800050
+!i10b 1
+!s100 OSFV7WT<z<h0?4Y:KHoI;3
+R1
+I^b1gZm:65N6E=UWUc<jJJ2
+R2
+S1
+R3
+w1735629156
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv
+!i122 76
+R10
+R4
+r1
+!s85 0
+31
+Z13 !s108 1735800050.000000
+!s107 C:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv|
+!i113 1
+R5
+R6
+Xmonitor_sv_unit
+R7
+R0
+R8
+VfHU_4X1a<?X<:E8AI42dZ1
+r1
+!s85 0
+!i10b 1
+!s100 :11QSf[K4ckj6H@4`DJeZ0
+IfHU_4X1a<?X<:E8AI42dZ1
+!i103 1
+S1
+R3
+w1735799507
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv
+R9
+!i122 65
+R10
+R4
+31
+R11
+!s107 C:\Users\y1499\OneDrive\Desktop\ALU\code\transaction.sv|C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv|
+!i113 1
+R5
+R6
+Xtransaction_sv_unit
+R0
+R12
+V5zMLed`[<EgX@dNI<?3=d0
+r1
+!s85 0
+!i10b 1
+!s100 B;TCDK3c@3>ekagdUAGAV2
+I5zMLed`[<EgX@dNI<?3=d0
+!i103 1
+S1
+R3
+w1735622083
+8C:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv
+FC:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv
+!i122 75
+R10
+R4
+31
+R13
+!s107 C:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv|
+!i113 1
+R5
+R6
