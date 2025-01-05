@@ -1,6 +1,8 @@
 `include "interface.sv"
 `include "test.sv"
+
 module tb_top ();
+  	
     intf i_intf();
     test t1(i_intf);
     alu dut(
@@ -10,4 +12,8 @@ module tb_top ();
         .command(i_intf.command),
         .out(i_intf.out)
     );
+  	initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars;
+    end
 endmodule

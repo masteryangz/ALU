@@ -1,0 +1,60 @@
+C:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/transaction.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package transaction_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/alu.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv(3): Invalid type 'transaction'. Please check the type of the variable 'trans'.
+** Error: C:/Users/y1499/OneDrive/Desktop/ALU/code/generator.sv(11): (vlog-2730) Undefined variable: 'trans'.
+
+} {3.0 5.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/test.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/test.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: (vlog-13069) ** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/test.sv(1)
+** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/environment.sv(5)
+** at C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv(7): near "4": syntax error, unexpected INTEGER NUMBER, expecting "SystemVerilog keyword 'new'".
+
+} {3.0 4.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/tb_top.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/tb_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling interface intf
+** Error: (vlog-13069) ** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/tb_top.sv(2)
+** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/test.sv(1)
+** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/environment.sv(5)
+** at C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv(7): near "4": syntax error, unexpected INTEGER NUMBER, expecting "SystemVerilog keyword 'new'".
+
+} {4.0 5.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv(3): Invalid type 'transaction'. Please check the type of the variable 'trans'.
+** Error: (vlog-13069) C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv(7): near "4": syntax error, unexpected INTEGER NUMBER, expecting "SystemVerilog keyword 'new'".
+
+} {3.0 5.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: (vlog-13069) C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv(14): near ";": syntax error, unexpected ';', expecting '('.
+** Error: C:/Users/y1499/OneDrive/Desktop/ALU/code/monitor.sv(15): (vlog-2730) Undefined variable: 'trans'.
+
+} {3.0 5.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: (vlog-13069) C:/Users/y1499/OneDrive/Desktop/ALU/code/driver.sv(13): near ";": syntax error, unexpected ';', expecting '('.
+
+} {3.0 4.0} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/interface.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling interface intf
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/y1499/OneDrive/Desktop/ALU/code/environment.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/y1499/OneDrive/Desktop/ALU/code/environment.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Error: (vlog-13069) ** while parsing file included at C:/Users/y1499/OneDrive/Desktop/ALU/code/environment.sv(5)
+** at C:/Users/y1499/OneDrive/Desktop/ALU/code/scoreboard.sv(7): near "4": syntax error, unexpected INTEGER NUMBER, expecting "SystemVerilog keyword 'new'".
+
+} {3.0 4.0} {}}
